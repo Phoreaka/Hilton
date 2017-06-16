@@ -1,0 +1,79 @@
+/* XS SIZE
+===================*/
+@media screen and (max-width:768px) {
+    .navbar-brand {
+        display: none;
+    }
+    
+    ul.nav {
+        display: inline-block;
+    }
+    
+    .nav > li {
+    display: inline-block;
+	
+    }
+    
+    .navbar-nav {
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    }
+    
+    
+   .article img {
+    margin-bottom: 20px;
+  
+  -moz-transition: none;
+  -webkit-transition: none;
+  transition: none;
+    }
+    
+  .article img:hover {
+  -moz-transform: none;
+  -webkit-transform: none;
+  transform: none;
+}
+    
+    h2 {
+        font-size: 60px;
+    }
+    
+    .btn-default {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        height: 70px;
+        width: 120px;
+    }
+    
+    .accoContainer {
+        margin-top: 40px;
+    }
+    
+}
+
+
+
+/* SM SIZE
+===================*/
+@media screen and (min-width:769px) and (max-width:992px) {
+    .marginTop {
+    margin-top: 40px;
+}
+    
+    .article {
+        margin-bottom: 30px;
+    }
+    
+    .article img {
+        margin-bottom: 20px;
+    }
+    
+    .accoContainer {
+        margin-top: 30px;
+    }
+
+	
+
+}
